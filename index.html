@@ -1,19 +1,151 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+        integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/style.css">
-    <title>Document</title>
+    <link rel="shortcut icon" href="./img/logo-favicon.png" type="image/x-icon">
+    <title>Inicio</title>
 </head>
+
 <body>
-    
+    <!--INICIO HEADER-->
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="./index.html"><img src="./img/logo.png" alt="Logo del local"></a>
+                <button class="navbar-toggler custom-t " type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon bg-"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-between " id="navbarNavAltMarkup">
+                    <div class="navbar-nav align-items-center fw-bold">
+                        <a class="nav-link" aria-current="page" href="./pages/hogares-y-comercios.html">Hogares y
+                            Comercios</a>
+                        <a class="nav-link" href="./pages/autos-y-motos.html">Autos y Motos</a>
+                        <a class="nav-link" href="./pages/nosotros.html">Nosotros</a>
+                        <a class="nav-link" href="./pages/contactos.html">Contactos</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <!--CIERRE HEADER-->
 
+    <!--INICIO MAIN-->
+    <section id="hero" class="hero">
+        <img src="./img/home.jpg" alt="">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-12">
+                    <h2>!VIVÍ TRANQUILO!</h2>
+                    <p>Bienvenido a nuestro sitio web de cámaras de seguridad para el hogar,comercio,auto o moto.</p>
+                    <a href="#" class="btn btn-warning align-self-start mt-4">Contactanos</a>
+                </div>
+            </div>
+        </div>
+    </section>
 
+    <div class="container">
+        <div class="row gy-4 align-items-stretch justify-content-between features-item ">
+            <div class="col-lg-5 d-flex justify-content-center flex-column">
+                <h2>Explore las medidas efectivas que ofrecen nuestros servicios para protegerlo.</h2>
+                <p>Con nuestros avanzados sistemas de alarma, soluciones de control de acceso y sistemas de
+                    videovigilancia, garantizamos una defensa sólida contra posibles amenazas.</p>
+                <a href="#" class="btn btn-warning align-self-start">Conocenos</a>
+            </div>
+            <div class="col-lg-6 d-flex align-items-center features-img-bg">
+                <img src="./img/camara-inicio.jpg" class="img-fluid" alt="Foto de camara de inicio">
+            </div>
+        </div>
+    </div>
 
+    <div class="container mt-5">
+        <div class="row gy-4 align-items-stretch justify-content-between features-item ">
+            <div class="col-lg-6 d-flex align-items-center features-img-bg">
+                <img src="./img/camara-inicio-2.jpg" class="img-fluid" alt="Foto de camara de inicio">
+            </div>
+            <div class="col-lg-5 d-flex justify-content-center flex-column">
+                <h2>Vigile su hogar las 24 horas del día, los 7 dias de la semana con nuestro sistemas de seguridad.
+                </h2>
+                <p>Nuestras cámaras de vigilancia están equipadas con resolución de alta definición, capacidades de
+                    visión nocturna y tecnología avanzada de detección de movimiento.</p>
+                <a href="#" class="btn btn-warning align-self-start">Nuestros Kits</a>
+            </div>
+        </div>
+    </div>
 
+    <!--INICIO CAROUSEL-->
+    <div id="carouselExampleCaptions" class="carousel slide container mt-5 mb-4" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="8000">
+                <img src="./img/auto.jpg" class="d-block w-100" alt="foto carousel auto">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2 class="main-h2">Autos</h2>
+                    <p class="main-p">Lorem ipsum dolor sit amet consectetur adipisicing elit. Explicabo, reiciendis?.
+                    </p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="./img/moto.jpg" class="d-block w-100" alt="foto carousel moto">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2 class="main-h2">Motos</h2>
+                    <p class="main-p">Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    </div>
+    <!--CIERRE CAROUSEL-->
+    <!--CIERRE MAIN-->
 
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+<!--INICIO FOOTER-->
+    <footer class="bg-dark py-7">
+        <div class="container">
+            <div class="row mx-auto">
+                <div class="col-lg-6 mx-auto text-center pt-4">
+                    <img class="mx-auto h-60px" src="./img/logo3.png" alt="Logo del local">
+                    <ul class="nav justify-content-between text-primary-hover mt-3 mt-md-0 fw-bold">
+                        <li class="nav-item"><a class="nav-link p-2 text-white" href="#">Hogares y Comercios</a></li>
+                        <li class="nav-item"><a class="nav-link p-2 text-white" href="#">Autos y Motos</a></li>
+                        <li class="nav-item"><a class="nav-link p-2 text-white" href="#">Nosotros</a></li>
+                        <li class="nav-item"><a class="nav-link p-2 text-white" href="#">Contactos</a></li>
+                    </ul>
+                    <ul class="list-inline mt-3 mb-0">
+                        <li class="list-inline-item">
+                            <a class="btn btn-white btn-sm px-2 text-facebook" href="#">
+                                <i class="fa-brands fa-facebook"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a class="btn btn-white btn-sm px-2 text-instagram" href="#">
+                                <i class="fa-brands fa-instagram"></i>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- copyright text -->
+                    <div class="text-white pt-4 pb-4">2023 © X-28 Alarmas Roca — Todos los derechos reservados. </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!--CIERRE FOOTER-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
 </body>
+
 </html>
