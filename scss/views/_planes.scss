@@ -1,7 +1,7 @@
 /*
-Estilos home
+Estilos planes
 */
-.hero {
+.hero-planes {
     width: 100%;
     min-height: 100vh;
     position: relative;
@@ -38,23 +38,19 @@ Estilos home
   
     p {
     color: $color-blanco;
-    margin: 5px 0 0 0;
+    margin: 5px 250px 0 0;
     font-size: 20px;
     }
   }
-  
-  .buttonY{
-    @include button;
-  }
 
-  .h2-main{
+.h2-planes{
     color: $color-negro;
     font-weight: 700;
-  }
+}
 
-  .p-main{
+.p-planes{
     color: $color-negro;
-  }
+}
 /*
-Fin estilos home
+Fin estilos planes
 */

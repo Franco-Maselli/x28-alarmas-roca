@@ -1,3 +1,27 @@
+/*
+Estilos header
+*/
 .custom-t {
   background-color: white;
 }
+
+.navbar-brand{
+  height: 80px;
+  &:hover{
+    transform: scale(1.03);
+  }
+}
+
+.nav-link{
+  color: $color-negro;
+  &:hover{
+    transform: scale(1.06);
+  }
+}
+
+h1{
+  display: none;
+}
+/*
+Fin estilos header 
+*/

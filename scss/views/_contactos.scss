@@ -1,12 +1,24 @@
+/*
+Estilos contact 
+*/
+
 .contact{
-    background-color: #fff;
+    background-color: $color-blanco;
     padding: 3rem 0 3rem 0;
+    height: 100%;
+    h2{
+        color: $color-negro;
+        font-size: 25px;
+        font-weight: 700;
+    }
 }
 
 .contact .info-item {
-    background: whitesmoke;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
     padding: 30px;
-}
+    }
 
 .contact .info-item i {
     font-size: 30px;
@@ -28,7 +40,9 @@
 }
 
 .contact .php-email-form {
-    background: whitesmoke;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,.2);
+    border-radius: 5px;
     padding: 30px;
     height: 100%;
 }
@@ -98,3 +112,6 @@
     background: $color-secundario;
     color: $color-titulos;
 }
+/*
+Fin estilos contact 
+*/
